@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specialpage><name>news</name><title><![CDATA[News]]></title><parent></parent><tags><![CDATA[news]]></tags><slug>news-%Y%m%d-%H%M</slug><template><![CDATA[template.php]]></template><menu></menu><headercomponent></headercomponent><defaultcontent><![CDATA[]]></defaultcontent><fields><item><name><![CDATA[rtzrt]]></name><label><![CDATA[rttrztrzrtzr]]></label><type><![CDATA[text]]></type></item></fields></specialpage>

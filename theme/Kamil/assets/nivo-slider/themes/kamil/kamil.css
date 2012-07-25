@@ -1,0 +1,85 @@
+/*
+Skin Name: Nivo Slider kamil Theme
+Skin URI: http://nivo.dev7studios.com
+Skin Type: flexible
+Description: The kamil skin for the Nivo Slider.
+Version: 1.2
+Author: Gilbert Pellegrom
+Author URI: http://dev7studios.com
+*/
+
+.theme-kamil .nivoSlider {
+	position:relative;
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+    margin-bottom:50px;
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+}
+.theme-kamil .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-kamil .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-kamil .nivo-controlNav {
+	text-align: center;
+	padding: 20px 0;
+}
+.theme-kamil .nivo-controlNav a {
+	display:inline-block;
+	width:22px;
+	height:22px;
+	background:url(bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin: 0 2px;
+}
+.theme-kamil .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.theme-kamil .nivo-directionNav a {
+	display:block;
+	width:91px;
+	height:68px;
+	background:url(arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+.theme-kamil a.nivo-nextNav {
+	background-position:-91px 0;
+}
+.theme-kamil a.nivo-prevNav {
+}
+
+.theme-kamil .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.theme-kamil .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-kamil .nivo-caption a:hover {
+    color:#fff;
+}
+
+.theme-kamil .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+.theme-kamil .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+.theme-kamil .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}

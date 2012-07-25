@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Tue, 17 Jul 2012 14:31:13 +0200</pubDate><creDate>Sat, 30 Apr 2011 09:47:26 -0400</creDate><title><![CDATA[Gallery]]></title><url><![CDATA[gallery]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><template><![CDATA[template.php]]></template><content><![CDATA[&lt;p&gt;
-	(% gallery name=aaa %)&lt;/p&gt;
-]]></content><author><![CDATA[admin]]></author><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><menuOrder><![CDATA[1]]></menuOrder><menu><![CDATA[]]></menu><menuStatus><![CDATA[Y]]></menuStatus><private><![CDATA[]]></private></item>
+<item><pubDate>Tue, 17 Jul 2012 14:31:13 +0200</pubDate><creDate>Sat, 30 Apr 2011 09:47:26 -0400</creDate><title>Gallery</title><url>gallery</url><meta/><metad/><template>template.php</template><content>&amp;lt;p&amp;gt;
+	(% gallery name=aaa %)&amp;lt;/p&amp;gt;
+</content><author>admin</author><user>admin</user><parent/><menu/><menuStatus>Y</menuStatus><private/><menuOrder><![CDATA[3]]></menuOrder></item>

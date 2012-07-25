@@ -267,12 +267,12 @@ fieldset{
 	top:50%;
 	z-index:20;
 	margin:-30px 0 0;
-	background:url('images/arrow-sprite.png') no-repeat;
-	width:60px;
-	height:60px;
+	background:url('images/arrows.png') no-repeat;
+	width:91px;
+	height:68px;
 }
 .link-next{
-	background-position:0 -100px;
+	background-position:-91px 0;
 	left:auto;
 	right:0;
 }
@@ -320,7 +320,7 @@ span.previous-model { top:41%; }
 	padding:0 0 0 92px;
 	width:890px;
 	margin:0 auto;
-	background:url(/App_Themes/certina/images/bg-slide-image-home.png) no-repeat -48px 161px;
+	background:url('images/bg-slide-image-home.png') no-repeat -48px 161px;
 }
 .slide-container{
 	width:100%;
@@ -503,7 +503,7 @@ a.arrow {
 	margin:0;
 	min-height:0;
 	padding:0 23px 0 15px;
-	background:url(/App_Themes/certina/images/arrow.png) no-repeat 0 50%;
+	background:url('images/arrow.png') no-repeat 0 50%;
 }
 .slideshow .btn-list a,
 .menu li a,
@@ -526,7 +526,7 @@ a.arrow {color:#333;}
 }
 
 .facebook {
-        background: url(/App_Themes/certina/images/icon_fb.png) no-repeat scroll transparent;
+        background: url('images/icon_fb.png') no-repeat scroll transparent;
         padding-left: 20px; 
 }
 
@@ -586,7 +586,7 @@ a.arrow {color:#333;}
 }
 #main{
 	width:100%;
-	background:#fff url(/App_Themes/certina/images/bg-main.gif) no-repeat 50% 0;
+	background:#fff url('images/bg-main.gif') no-repeat 50% 0;
 }
 .main-holder{
 	width:890px;
@@ -800,7 +800,7 @@ a.arrow {color:#333;}
 	vertical-align:top;
 	width:154px;
 	padding:0 58px 70px 20px;
-	margin:0 -5px 0 0;
+	margin:0 75px 0 0;
 	text-align:center;
 }
 *+html .product-list li{
@@ -808,8 +808,8 @@ a.arrow {color:#333;}
 	margin:0;
 }
 .product-list .photo{
-	height:217px;
-	width:154px;
+	height:420px;
+	width:235px;
 	overflow:hidden;
 	text-align:center;
 	margin:0 0 24px;
@@ -819,11 +819,13 @@ a.arrow {color:#333;}
 	font-size:14px;
 	line-height:18px;
 	font-weight:normal;
-	background:url(/App_Themes/certina/images/divider.gif) no-repeat 50% 100%;
-	padding:0 0 7px;
+	background:url('images/divider.gif') no-repeat 50% 100%;
+	padding:0px 7px;
 	margin:0 0 12px;
 	text-transform:uppercase;
 	color:#000;
+	position:relative;
+	left:41px;
 	/*white-space:nowrap;*/
 }
 .product-list .title a{color:#000;}

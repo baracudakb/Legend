@@ -10,11 +10,11 @@ body {
 }
 a:link, a:visited {
 	color:#316594;
-	text-decoration:underline;
+	text-decoration:none;
 }
 a:hover, a:focus {
 	color:#222;
-	text-decoration:underline;
+	text-decoration:none;
 }	
 
 
